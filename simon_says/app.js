@@ -34,7 +34,7 @@ function levelup(){
    
     //random button choose
 
-    let randidx=Math.floor(Math.random()*3);
+    let randidx=Math.floor(Math.random()*4);
     let randcolor=btns[randidx];
     let randbtn=document.querySelector(`.${randcolor}`);
     gameseq.push(randcolor);
